@@ -9,26 +9,76 @@
 .headerCont {
   width: 100%;
   height: 100vh;
-  background-image: url(./assets/headerBG.jpeg);
+  background: linear-gradient(0deg,rgba(3, 53, 108, 0.756),rgba(169, 199, 250, 0.235)), url(./assets/headerBG.jpeg);
   background-size: cover;
   background-position: center;
+
 }
 
 .headerTitle {
-  padding: 30% 45px 45px 45px;
+  padding: 35% 45px 45px 45px;
 }
 
 .headerTitle h1 {
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 3em;
+  color: white;
+}
+
+.aboutMe {
+  height: 400px;
+  display: flex;
+  padding: 45px;
+}
+
+.aboutMe img {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(1, 31, 63, 0.851);
+}
+
+.aboutMeInfo {
+  width: 300px;
+}
+
+.aboutMeInfo h1, p {
+  font-family: Open Sans;
+  padding: 15px;
   text-align: center;
 }
 
 .skills {
   height: 300px;
+  background: linear-gradient(0deg,rgba(169, 199, 250, 0.235),rgba(3, 53, 108, 0.756));
+
+}
+
+@media only screen and (max-width: 955px) {
+  .headerTitle {
+    color: white;
+    transition: color 2s;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
   .headerTitle {
-    color: white;
+    padding: 15% 45px 45px 45px;
+    transition: padding 2s;
   }
+}
 
+@media only screen and (max-width: 375px) {
+  .headerTitle h1 {
+    font-size: 1.5em;
+    transition: font-size 1s;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .headerTitle {
+    padding: 25% 0 0 0;
+    transition: padding 2s;
+  }
 }
