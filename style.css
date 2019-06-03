@@ -3,7 +3,7 @@
 }
 
 .homeCont {
-
+  height: 100vh;
 }
 
 .headerCont {
@@ -11,7 +11,7 @@
   height: 100vh;
   background-image: url(./assets/headerBG.jpeg);
   background-size: cover;
-
+  background-position: center;
 }
 
 .headerTitle {
@@ -24,4 +24,11 @@
 
 .skills {
   height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerTitle {
+    color: white;
+  }
+
 }
