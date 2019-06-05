@@ -2,6 +2,28 @@
   margin: 0 auto;
 }
 
+body {
+  position: relative !important;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* a {
+  text-decoration: none !important;
+  color: white !important;
+} */
+
 .homeCont {
   height: 100vh;
 }
@@ -27,9 +49,13 @@
 }
 
 .aboutMe {
-  height: 400px;
+  height: 600px;
   display: flex;
-  padding: 45px;
+  align-items: center;
+  /* padding: 45px 0 0 0; */
+  background: linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255, 0.879)), url(./assets/aboutMeBG.jpeg);
+  background-size: cover;
+  background-position: center;
 }
 
 .aboutMe img {
@@ -39,19 +65,22 @@
 }
 
 .aboutMeInfo {
-  width: 300px;
+  width: 350px;
 }
 
 .aboutMeInfo h1, p {
   font-family: Open Sans;
   padding: 15px;
   text-align: center;
+  font-weight: lighter;
+  color: gray;
 }
 
 .skills {
-  height: 300px;
-  background: linear-gradient(0deg,rgba(169, 199, 250, 0.235),rgba(3, 53, 108, 0.756));
-
+  height: 500px;
+  background: linear-gradient(to right,rgba(255, 255, 255, 0.475),rgba(3, 53, 108, 0.756));
+  display: flex;
+  /* width: 100vw; */
 }
 
 @media only screen and (max-width: 955px) {
@@ -59,10 +88,10 @@
     color: white;
     transition: color 2s;
   }
-
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+
   .headerTitle {
     padding: 15% 45px 45px 45px;
     transition: padding 2s;
@@ -71,7 +100,7 @@
 
 @media only screen and (max-width: 375px) {
   .headerTitle h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     transition: font-size 1s;
   }
 }
