@@ -83,6 +83,39 @@ p {
   /* width: 100vw; */
 }
 
+.skillsTitle{
+  width: 350px;
+  height: 100px;
+  font-family: Open Sans;
+  text-align: center;
+  /* float: left; */
+  margin: 175px 0 0 150px;
+  color: grey;
+}
+
+.skillsTitle hr {
+  border: solid .3px gray;
+  margin-top: 40px;
+}
+
+.skillsList li {
+  margin: 15px 0 0 0;
+  padding: 5px;
+  width: 500px;
+  
+}
+
+.skillsList p {
+  text-align: left;
+  font-weight: lighter;
+  color: white; 
+}
+
+.skillsList h2 {
+  font-weight: 200;
+  color: white;
+}
+
 @media only screen and (max-width: 955px) {
   .headerTitle {
     color: white;
