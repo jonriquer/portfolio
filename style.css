@@ -129,12 +129,25 @@ p {
     padding: 15% 45px 45px 45px;
     transition: padding 2s;
   }
+
+  .aboutMe {
+    flex-direction: column;
+    height: 800px;
+  }
+
+  .aboutMe img {
+    margin-top: 25px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
   .headerTitle h1 {
     font-size: 2em;
     transition: font-size 1s;
+  }
+
+  .aboutMe h1 {
+    padding-top: 35px;
   }
 }
 
