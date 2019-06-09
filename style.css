@@ -121,6 +121,22 @@ p {
     color: white;
     transition: color 2s;
   }
+
+  .skills {
+    flex-direction: column;
+    height: 700px;
+    background: rgba(14, 61, 162, 0.76);
+    
+  }
+
+  .skillsTitle {
+    margin: 50px 0 0 25%;
+    color: white;
+  }
+
+  .skillsTitle hr {
+    border: solid .3px white;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -148,6 +164,25 @@ p {
 
   .aboutMe h1 {
     padding-top: 35px;
+  }
+
+  .skills {
+    height: 800px;
+  }
+
+  .skillsTitle {
+    text-align: center;
+    width: 300px;
+    margin: 75px 0 0 35px;
+  }
+
+  .skillsList li {
+    width: 100%;
+  }
+
+  .skillsList p {
+    display: flex;
+    width: 300px;
   }
 }
 
