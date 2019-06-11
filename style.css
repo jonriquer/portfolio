@@ -116,6 +116,24 @@ p {
   color: white;
 }
 
+.projects {
+  height: 500px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-end;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.projectsList {
+  padding: 50px;
+  
+}
+
+.projectsList img {
+  padding: 20px;
+}
+
 @media only screen and (max-width: 955px) {
   .headerTitle {
     color: white;
