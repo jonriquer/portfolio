@@ -125,6 +125,20 @@ p {
   padding: 40px;
 }
 
+.projectsTitle {
+  width: 350px;
+  margin: 0 0 0 130px;
+  font-family: Open Sans;
+  color: gray;
+  float: left;
+  text-align: center;
+}
+
+.projectsTitle hr {
+  border: solid .5px gray;
+  margin-top: 40px;
+}
+
 .projectsList {
   padding: 50px;
   
