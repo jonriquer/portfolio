@@ -186,6 +186,10 @@ p {
   .aboutMe img {
     margin-top: 25px;
   }
+
+  .projects {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -215,6 +219,23 @@ p {
   .skillsList p {
     display: flex;
     width: 300px;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .projectsTitle {
+    margin: 0 0 0 40px;
+  }
+  .projectsList {
+    margin: 0;
+    padding: 0;
+  }
+
+  .projectsList img {
+    padding: 10px;
+    margin: 0 0 0 -12px;
   }
 }
 
