@@ -44,7 +44,7 @@ p {
 .headerTitle h1 {
   text-align: center;
   font-family: Open Sans;
-  font-size: 3em;
+  font-size: 3.5em;
   color: white;
 }
 
@@ -74,6 +74,7 @@ p {
   text-align: center;
   font-weight: lighter;
   color: gray;
+  line-height: 30px;
 }
 
 .skills {
@@ -171,6 +172,14 @@ p {
 
 .github {
   margin-bottom: -5px;
+}
+
+.imgScale:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.imgScale {
+  transition:all .5s;
 }
 
 @media only screen and (max-width: 1253px) {
