@@ -53,7 +53,7 @@ p {
   display: flex;
   align-items: center;
   /* padding: 45px 0 0 0; */
-  background: linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255, 0.879)), url(./assets/aboutMeBG.jpeg);
+  background: linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255, 0.879)), url(./assets/codeBG.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -118,8 +118,11 @@ p {
 
 .projects {
   height: 500px;
+  width: 100%;
+  background: linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255, 0.879)), url(./assets/codeBG.jpeg);
+  background-size: cover;
+  background-position: center;
   display: flex;
-  /* justify-content: center; */
   align-items: flex-end;
   flex-direction: row;
   padding: 40px;
@@ -146,6 +149,28 @@ p {
 
 .projectsList img {
   padding: 20px;
+}
+
+.footer {
+  height: 100px;
+  background: rgba(14, 61, 162, 0.76);
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.footerTitle h4 {
+  font-family: Open Sans;
+  font-weight: 200 !important;
+  color: white;
+  padding: 30px 0 20px 0;
+}
+
+.icons img {
+  padding: 30px 50px 0 50px;
+}
+
+.github {
+  margin-bottom: -5px;
 }
 
 @media only screen and (max-width: 955px) {
