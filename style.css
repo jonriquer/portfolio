@@ -34,7 +34,7 @@ p {
   background: linear-gradient(0deg,rgba(3, 53, 108, 0.756),rgba(169, 199, 250, 0.235)), url(./assets/headerBG.jpeg);
   background-size: cover;
   background-position: center;
-
+  
 }
 
 .headerTitle {
@@ -46,6 +46,42 @@ p {
   font-family: Open Sans;
   font-size: 3.5em;
   color: white;
+}
+
+/* .downArrow {
+  margin: 250px 0 0 50%;
+  position: absolute;
+  clear: both;
+} */
+
+.ct-btn-scroll {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 500px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+#scrollArrow {
+  -webkit-animation: scaling 1.5s  ease;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes scaling {
+  from {
+      -webkit-transform: scale(.95);
+  }
+  to {
+      -webkit-transform: scale(1);
+  }
 }
 
 .aboutMe {
@@ -78,7 +114,7 @@ p {
 }
 
 .skills {
-  height: 500px;
+  height: 550px;
   background: linear-gradient(to right,rgba(255, 255, 255, 0.475),rgba(3, 53, 108, 0.756));
   display: flex;
   /* width: 100vw; */
@@ -154,7 +190,7 @@ p {
 
 .footer {
   height: 120px;
-  background: rgba(14, 61, 162, 0.76);
+  background: rgba(7, 53, 154, 0.817);
   display: flex;
   clear: both;
 }
