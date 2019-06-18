@@ -34,7 +34,6 @@ p {
   background: linear-gradient(0deg,rgba(3, 53, 108, 0.756),rgba(169, 199, 250, 0.235)), url(./assets/headerBG.jpeg);
   background-size: cover;
   background-position: center;
-  
 }
 
 .headerTitle {
@@ -47,12 +46,6 @@ p {
   font-size: 3.5em;
   color: white;
 }
-
-/* .downArrow {
-  margin: 250px 0 0 50%;
-  position: absolute;
-  clear: both;
-} */
 
 .ct-btn-scroll {
   width: 49px;
